@@ -1,0 +1,2 @@
+hello @html.include(model.root + '/include/header.vash')
+hello @html.include(model.root + '/include/footer.vash')
