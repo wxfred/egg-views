@@ -11,6 +11,7 @@ describe('test/egg-views.test.js', () => {
   describe('render', () => {
     let app;
     before(() => {
+      mm.env('default');
       app = mm.app({
         baseDir: 'apps/views-test',
       });
@@ -111,6 +112,25 @@ describe('test/egg-views.test.js', () => {
         .get('/cache')
         .expect('2')
         .expect(200);
+    });
+  });
+
+  describe('no engine', () => {
+    let app;
+    before(() => {
+      mm.env('unittest');
+      app = mm.app({
+        baseDir: 'apps/views-test',
+      });
+      return app.ready();
+    });
+    after(() => app.close());
+
+    it('should error with no engine', function* () {
+      return app.httpRequest()
+        .get('/locals')
+        .expect(/Error: Engine not found/)
+        .expect(500);
     });
   });
 });

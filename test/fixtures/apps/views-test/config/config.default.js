@@ -8,3 +8,14 @@ exports.view = {
     '.html': 'views',
   },
 };
+
+exports.views = {
+  engine: 'ejs',
+  options: {
+    cache: true,
+    debug: false,
+    compileDebug: true,
+    delimiter: null,
+    strict: false,
+  },
+};
