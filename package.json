@@ -1,6 +1,6 @@
 {
   "name": "egg-views",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "egg view plugin for all views in consolidate, like koa-views",
   "eggPlugin": {
     "name": "views",
