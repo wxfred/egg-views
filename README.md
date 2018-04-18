@@ -144,7 +144,7 @@ You should also avoid using the names in configuration options list of the choos
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+Please open an issue [here](https://github.com/wxfred/egg-views/issues).
 
 ## License
 

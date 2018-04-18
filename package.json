@@ -1,7 +1,7 @@
 {
   "name": "egg-views",
-  "version": "1.0.1",
-  "description": "egg view plugin for all views in consolidate, like koa-views",
+  "version": "1.0.2",
+  "description": "egg view plugin for all templating engines in consolidate, like koa-views",
   "eggPlugin": {
     "name": "views",
     "dependencies": [
@@ -56,12 +56,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-views.git"
+    "url": "git+https://github.com/wxfred/egg-views.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/wxfred/egg-views/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-views#readme",
+  "homepage": "https://github.com/wxfred/egg-views#readme",
   "author": "wxfred",
   "license": "MIT"
 }
